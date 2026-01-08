@@ -14,17 +14,29 @@
 📋 ÍNDICE
 
 · ✨ Características
+
 · 🚀 Instalación Rápida
+
 · 📱 Requisitos
+
 · 🎮 Uso del Script
+
 · 🔧 Funciones Principales
+
 · 🌐 APNs Multipaís
+
 · 🔐 Cuentas Gratuitas
+
 · 📊 Ejemplos de Uso
+
 · ⚠️ Advertencia Legal
+
 · 📁 Estructura del Proyecto
+
 · 🤝 Contribuciones
+
 · 👤 Autor
+
 · 📄 Licencia
 
 ---
