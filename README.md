@@ -46,25 +46,37 @@
 🔍 Enumeración y Escaneo
 
 · ✅ Enumeración avanzada de subdominios con detección Cloudflare
+
 · ✅ Escaneo de puertos TCP/UDP con análisis de servicios
+
 · ✅ Detección de vulnerabilidades comunes
+
 · ✅ Búsqueda de subdominios ocultos con técnicas modernas
+
 · ✅ Verificación HTTP/HTTPS con resaltado de estados 200 OK
 
 🌐 Herramientas de Red
 
 · ✅ Generador de APNs para 17 países de Centro y Suramérica
+
 · ✅ Cuentas gratuitas (WebSocket, SSH, SSL, DNS) válidas por 7 días
+
 · ✅ Análisis de servicios con sugerencias de inyección
+
 · ✅ Pruebas de conectividad y velocidad de internet
+
 · ✅ Escaneo de red local y dispositivos conectados
 
 🛡️ Seguridad y Utilidades
 
 · ✅ Interfaz numerada intuitiva (1-13 opciones)
+
 · ✅ Configuración de alias personalizado
+
 · ✅ Resultados guardados automáticamente
+
 · ✅ Multi-hilo para escaneos rápidos
+
 · ✅ Herramientas adicionales integradas
 
 ---
@@ -84,7 +96,10 @@ chmod +x secman77.sh
 Método 2: Instalación con Script de Ayuda
 
 # Descargar e instalar automáticamente
-curl -sL https://raw.githubusercontent.com/HUEVOMAN77/secman77/main/install.sh | bash
+
+curl -sL https://raw.githubusercontent.com/HUEVOMAN77/secman77/main/install.sh
+
+----
 
 Método 3: Instalación Manual en Termux
 
@@ -97,12 +112,20 @@ pkg install -y curl wget git python python-pip
 # Clonar repositorio
 git clone https://github.com/HUEVOMAN77/secman77.git
 
+-------
+
 # Instalar dependencias Python
+
 pip install requests dnspython
 
+------
+
 # Ejecutar
+
 cd secman77
+
 chmod +x secman77.sh
+
 ./secman77.sh
 
 ---
@@ -110,9 +133,13 @@ chmod +x secman77.sh
 📱 REQUISITOS
 
 · Sistema: Termux (Android)
+
 · Versión: Termux v0.118 o superior
+
 · Espacio: 50MB libre
+
 · Internet: Conexión activa (para algunas funciones)
+
 · Permisos: Almacenamiento (para guardar resultados)
 
 ---
@@ -128,7 +155,9 @@ Primera Ejecución
 El script te pedirá:
 
 1. Alias/Nickname - Para personalizar tu experiencia
+
 2. Aceptación de términos - Uso educativo autorizado únicamente
+
 3. Instalación de dependencias - Automática si es necesario
 
 ╔══════════════════════════════════════════════════════════╗
@@ -136,18 +165,31 @@ El script te pedirá:
 ╚══════════════════════════════════════════════════════════╝
 
 [1]  Configurar objetivo
+
 [2]  Enumeración avanzada de subdominios
+
 [3]  Escaneo de puertos TCP
+
 [4]  Escaneo UDP y DNS
+
 [5]  Enumeración completa
+
 [6]  Verificar subdominios 200 OK
+
 [7]  Analizar servicios y vulnerabilidades
+
 [8]  Configuración avanzada
+
 [9]  Ver resultados guardados
+
 [10] Instalar herramientas
+
 [11] Generador de APNs Multipaís
+
 [12] Generador de cuentas gratuitas (7 días)
+
 [13] Herramientas adicionales
+
 [0]  Salir
 
 🔧 FUNCIONES PRINCIPALES
@@ -160,14 +202,18 @@ Ejemplo: ejemplo.com, google.com, etc.
 2️⃣ Enumeración Avanzada de Subdominios
 
 · Escaneo DNS con múltiples técnicas
+
 · Detección de Cloudflare y CDNs
+
 · Búsqueda de subdominios ocultos
+
 · Verificación HTTP/HTTPS automática
 
 3️⃣ Escaneo de Puertos TCP
 
 ```
 Puertos comunes: 21,22,23,25,53,80,443,3306,3389,8080
+
 Identificación automática de servicios
 Sugerencias de vulnerabilidades por puerto
 ```
@@ -180,18 +226,23 @@ Sugerencias de vulnerabilidades por puerto
 
 5️⃣ Enumeración Completa
 
-```
+----
 Ejecuta automáticamente:
+
 1. Enumeración de subdominios
+
 2. Escaneo de puertos TCP
+
 3. Escaneo UDP y DNS
+
 4. Guarda todos los resultados
-```
+
+----+
 
 6️⃣ Verificar Subdominios 200 OK
 
 ```
-Muestra subdominios con respuesta HTTP 200
+Muestra subdominios con respuesta HTTP 200K
 Resaltado especial con colores
 Fácil identificación de objetivos activos
 ```
@@ -206,8 +257,11 @@ Fácil identificación de objetivos activos
 
 ```
 Ajustar número de hilos (10-100)
+
 Cambiar puertos a escanear
+
 Modificar timeout de conexión
+
 Limpiar resultados anteriores
 ```
 
@@ -224,8 +278,11 @@ Información de fecha y tamaño
 ```
 Instalación de:
 - Nmap (escaneo avanzado)
+
 - Masscan (escaneo rápido)
+
 - Herramientas Python adicionales
+
 - Todas las herramientas necesarias
 ```
 
@@ -247,8 +304,11 @@ Países Disponibles:
 Características:
 
 · ✅ APNs para múltiples operadoras por país
+
 · ✅ APNs alternativas para mejor conexión
+
 · ✅ Guardado automático en archivo
+
 · ✅ Fácil copia y pega para configuración
 
 ---
@@ -259,29 +319,44 @@ Tipos de Cuentas Disponibles:
 
 ```
 [1] WebSocket + SSL (7 días)
+
 [2] SSH (7 días)
+
 [3] SSL/TLS (7 días)
+
 [4] DNS (7 días)
+
 ```
 
 Características:
 
 · ✅ Válidas por 7 días - Renovables
+
 · ✅ Configuración automática - Enlaces listos para usar
+
 · ✅ Prueba de conexión - Verifica estado del servidor
+
 · ✅ Gestión de cuentas - Ver, renovar, eliminar
+
+-------
 
 Ejemplo de Cuenta Generada:
 
-```bash
 [+] Cuenta WebSocket generada exitosamente!
 
 ═ INFORMACIÓN DE LA CUENTA ═
+
 Usuario: huevoman77_abc123
+
 Contraseña: XyZ!123$abc
+
 Servidor: ws-us1.hostfree.com:443
+
 Protocolo: WebSocket + TLS
+
 Válido hasta: 2024-01-15
+
+---------
 
 ═ ENLACE DE CONFIGURACIÓN ═
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYYVohMTIzJGFiY0B3cy11czEuaG9zdGZyZWUuY29tOjQ0Mw==#SECMAN77-huevoman77_abc123
@@ -295,10 +370,14 @@ Ejemplo 1: Escanear un dominio completo
 
 ```bash
 ./secman77.sh
+
 # Selecciona: [1] Configurar objetivo
 # Ingresa: ejemplo.com
+
 # Selecciona: [5] Enumeración completa
+
 # Espera resultados (5-10 minutos)
+
 # Selecciona: [6] Ver subdominios 200 OK
 ```
 
@@ -306,9 +385,13 @@ Ejemplo 2: Obtener APN para México
 
 ```bash
 ./secman77.sh
+
 # Selecciona: [11] Generador de APNs
+
 # Ingresa: 1 (para México)
+
 # Copia APN: internet.itelcel.com
+
 # Configura en ajustes móviles
 ```
 
@@ -316,9 +399,13 @@ Ejemplo 3: Generar cuenta SSH gratuita
 
 ```bash
 ./secman77.sh
+
 # Selecciona: [12] Cuentas gratuitas
+
 # Selecciona: [2] Generar cuenta SSH
+
 # Copia comando: ssh usuario@servidor -p puerto
+
 # Usa en Termux con la contraseña mostrada
 ```
 
@@ -326,9 +413,13 @@ Ejemplo 4: Ver vulnerabilidades detectadas
 
 ```bash
 ./secman77.sh
+
 # Configura dominio: [1]
+
 # Escaneo completo: [5]
+
 # Análisis de servicios: [7]
+
 # Revisa recomendaciones de seguridad
 ```
 
@@ -339,15 +430,21 @@ Ejemplo 4: Ver vulnerabilidades detectadas
 🚫 USO PROHIBIDO
 
 · ❌ Sistemas sin autorización explícita
+
 · ❌ Redes ajenas sin permiso
+
 · ❌ Actividades maliciosas
+
 · ❌ Violación de términos de servicio
 
 ✅ USO PERMITIDO
 
 · ✅ Tus propios sistemas/servidores
+
 · ✅ Laboratorios de práctica (HackTheBox, TryHackMe)
+
 · ✅ Bug bounty programs autorizados
+
 · ✅ Entornos educativos controlados
 
 📝 RESPONSABILIDAD
