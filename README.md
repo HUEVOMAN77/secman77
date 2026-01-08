@@ -1,11 +1,5 @@
 🔥 SECMAN77 - Ultimate Security & Networking Tool v8.0
 
-https://img.shields.io/badge/Termux-Compatible-brightgreen
-https://img.shields.io/badge/Version-8.0-orange
-https://img.shields.io/badge/Python-3.x-blue
-https://img.shields.io/badge/Bash-Script-yellow
-https://img.shields.io/badge/License-MIT-red
-https://img.shields.io/badge/Contributions-Welcome-success
 
 <p align="center">
   <img src="https://img.shields.io/badge/SECMAN77-ULTIMATE_TOOL-ff69b4" alt="SECMAN77">
