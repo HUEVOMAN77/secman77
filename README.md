@@ -505,14 +505,19 @@ Usa el sistema de Issues para:
 HUEVOMAN77
 
 · GitHub: @HUEVOMAN77
+
 · Facebook: HUEVOMAN77
+
 · Telegram: @Huevoman77
+
 · Intereses: Seguridad informática, redes, desarrollo
 
 Agradecimientos
 
 · Comunidad de Termux
+
 · Proyectos de código abierto
+
 · Entusiastas de la seguridad ética
 
 ---
@@ -544,8 +549,11 @@ las copias o partes sustanciales del Software.
 Si este proyecto te resulta útil, por favor:
 
 1. ⭐ Dale una estrella al repositorio
+
 2. 🔔 Watch para recibir actualizaciones
+
 3. 🍴 Fork para crear tu propia versión
+
 4. 🐛 Reporta bugs para mejorar la herramienta
 
 ---
@@ -553,9 +561,13 @@ Si este proyecto te resulta útil, por favor:
 📞 CONTACTO Y SOPORTE
 
 · Issues: GitHub Issues
+
 · Discusión: Sección de Discussions
+
 · Actualizaciones: Mira los Releases
+
 · Facebook: HUEVOMAN77
+
 · Telegram: @Huevoman77
 
 ---
